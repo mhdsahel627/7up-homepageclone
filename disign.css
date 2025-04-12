@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    border: 0;
+    
+}
+
+.header{
+    width: 100%;
+    height: 114px;
+    background: #00D2C6;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #ffff;
+    position: fixed;
+    z-index: 1;
+    
+
+}
+.right{
+    float: right;
+    background-color:#00D2c6;
+   
+    width: 41%;
+    
+    padding-top: 22px;
+    
+    
+    
+}
+.link{
+   font-family:'korolev';
+   font-size: 20px;
+    font-weight:600;
+    color: #fff;
+    
+    padding: 17px;
+
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.facebook{
+    width:30px;
+    padding-top:15px;
+    padding-left: 40px;
+}
+.logos{
+    width: 30px;
+    padding-top: 15px;
+
+}
+@font-face {
+    font-family:korolev ;
+    src: url(font/Korolev\ Light.otf);
+}
+
+.left{
+    
+    background-color: #00D2c6;
+    width: 50%;
+    
+    padding-left: 26PX;
+    padding-top: 23px;
+    
+}
+.logo{
+    height: 83pxpx;
+    width: 85px;
+}
+.product-section{
+    width: 100%;
+    height:829px;
+    background-color: #00D2C6;
+    
+}
+.product{
+    width: 100%;
+    height: max-content;
+    padding-top: 112px;
+}
+@font-face {
+    font-family:korolevbold;
+    src: url(font/Korolev\ Heavy.otf);
+}
+.text{
+    position:absolute;
+    top: 57%;
+    left: 5%;
+    color: white;
+    
+}
+
+.font{
+    color: #fff;
+    font-family: 'korolevbold';
+    font-weight:800px;
+    font-size: 55px;
+    line-height: 74px;
+    margin-bottom: 40px;
+  
+    
+}
+.learnmore{
+    
+   
+    text-decoration: none;
+    color: #ffff;
+    font-family: 'korolev';
+    font-size: medium;
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 30px;
+    padding: 11px 43px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    
+}
+
+
+    
+
+.recipes{
+
+    width: 100%;
+    height:auto
+    
+    
+}
+.imagecenter{
+    position: absolute;
+    color: #fff;
+    width: 100%;
+    top: 160%;
+    text-align: center;
+}
+.imagetext{
+    width: 45%;
+    margin: auto;
+    background-color: rgba(10, 91, 43, 0.8);
+    border-radius: 100px;
+    padding: 10px 0 43px 0;
+}
+.recipestext{
+    font-family:'korolev';
+    font-size: 35px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.recipescaption{
+    font-family: 'korolev';
+    font-size: 17px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+.buttonrecipes{
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 100px;
+    padding: 7px  43px ;
+    margin: auto;
+    font-family: 'korolev';
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.bannerimg1{
+    width: 100%;
+    height:auto;
+}
+
+.store{
+    margin-top: -10px;
+    width: 100%;
+    height: fit-content;
+}
+.storeimagecenter{
+    position: absolute;
+    top: 260%;
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+.storetext{
+    font-family: 'korolev';
+    width: 45%;
+    margin: auto;
+    background-color: rgba(10, 91, 43, 0.8);
+    border-radius: 100px;
+    padding: 10px 0 43px 0;
+}
+
+.storename{
+    font-family: 'korolev';
+    font-size: 40px;
+    margin-top: 11px;
+    margin-bottom: 12px;
+}
+.store-caption{
+    font-family: 'korolev';
+    font-size: 15px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+.buttonstore{
+    font-family: 'korolev';
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    border: 2px solid white;
+    border-radius: 100px ;
+    padding: 6px 20px;
+}
+
+
+.footer-items{
+    margin-bottom: 12px;
+    text-align: center;
+
+}
+.footer{
+    position: relative;
+    z-index: 100;
+    background: #3e3e3e;
+    font-family:'korolev';
+    font-size: 12px;
+    margin-top: -4px;
+    padding: 10px 15px 48px;
+    
+}
+.footer-font{
+    text-decoration: none;
+    font-family: 'korolev';
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 14.4px;
+    color: rgb(255, 255, 255);
+    padding: 0 13px;
+}
+.footcaption{
+    color: #fff;
+    font-weight: bold;
+    padding: 14px 13px;
+
+}
+
